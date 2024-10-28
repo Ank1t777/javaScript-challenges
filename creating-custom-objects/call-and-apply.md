@@ -4,6 +4,19 @@ In JavaScript, `.call()` and `.apply()` are methods used to invoke functions wit
 
 Let's look at an example to understand how these methods work in practice.
 
+
+# Explanation of .call() and .apply()
+
+.call() Method
+Syntax: function.call(thisArg, arg1, arg2, ...)
+Description: .call() immediately invokes the function with the specified this context (the thisArg), followed by any individual arguments (passed directly).
+Example: In displayPolitician.call(politician2, 'Resigned due to incompetence'), this is set to politician2, and the string 'Resigned due to incompetence' is passed as an argument.
+
+.apply() Method
+Syntax: function.apply(thisArg, [argsArray])
+Description: .apply() also invokes the function with the specified this context (the thisArg), but arguments are passed as an array.
+Example: In displayPolitician.apply(politician1, ['In jail for corruption']), this is set to politician1, and ['In jail for corruption'] is used to pass arguments.
+
 ## Example Code
 
 ```javascript
@@ -26,3 +39,4 @@ displayPolitician.apply(politician1, ['In jail for corruption']);
 
 // Using `.call()`
 displayPolitician.call(politician2, 'Resigned due to incompetence');
+
