@@ -1,4 +1,4 @@
-# Understanding Inheritance in JavaScript
+# Understanding Inheritance in JavaScript  
 
 In JavaScript, inheritance is a mechanism that allows one object to acquire properties and methods of another object. This is commonly used to create specialized versions of a base object with added features. In this document, we'll walk through inheritance by using an `Event` and `Concert` example.
 
