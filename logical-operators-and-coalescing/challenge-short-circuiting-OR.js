@@ -2,7 +2,7 @@ const jobHunter = {
     name: 'Tom Chant',
     username: 'TChant44',
     workLocation: 'Europe',
-    }
+    };
     
 /*
 Challenge:
